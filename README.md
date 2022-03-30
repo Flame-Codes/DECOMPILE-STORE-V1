@@ -1,1 +1,1 @@
-All NooBs Fucked
+## more scripts coming 🤣😹
