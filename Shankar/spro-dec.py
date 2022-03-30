@@ -1,5 +1,4 @@
-# DECOMPILED BY KR1SHNA
-# DONT MESS WITH ME
+
 
 import requests
 import bs4
