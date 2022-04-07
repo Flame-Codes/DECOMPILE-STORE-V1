@@ -1,5 +1,7 @@
 # Source Generated with Decompyle++
-# File: out.pyc (Python 2.7)
+# File:  (Python 2.7)
+#Decompile by FLAME NAIM
+
 
 Hj = '\x1b[1;92m'
 Mt = '\x1b[0m'
